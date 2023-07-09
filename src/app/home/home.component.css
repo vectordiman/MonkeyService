@@ -1,0 +1,75 @@
+
+.text-overview {
+  color: #fadbdb;
+  font-size: xx-large;
+}
+
+.text-overview-sm {
+  color: #fadbdb;
+  font-size: x-large;
+}
+
+.text-header {
+  color: #fadbdb;
+  font-size: xxx-large;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wall, .wheel, .battery, .steering-wheel, .logo {
+    width: 350px;
+    height: auto;
+    padding-left: 0;
+  }
+  .text-header {
+    font-size: xx-large;
+  }
+  .text-overview {
+    font-size: x-large;
+  }
+  .text-overview-sm {
+    color: #fadbdb;
+    font-size: large;
+  }
+}
+
+.wall, .battery {
+  max-width: 500px;
+  padding-left: 60px;
+}
+
+.wheel {
+  max-width: 500px;
+  padding-right: 60px;
+}
+
+.steering-wheel {
+  max-width: 500px;
+  padding-right: 60px;
+}
+
+.accordion-item {
+  background-color: #252626; /* Set the desired background color */
+  color: #fadbdb; /* Set the desired text color */
+}
+
+.accordion-button {
+  background-color: #252626; /* Set the desired background color */
+  color: #fadbdb; /* Set the desired text color */
+}
+
+.accordion-button::after {
+  background-color: #fadbdb;
+  border-radius: 30%;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #252626; /* Set the desired background color for the active (expanded) state */
+}
+
+.accordion-body {
+  background-color: #252626; /* Set the desired background color */
+}

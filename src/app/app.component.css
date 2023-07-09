@@ -1,0 +1,101 @@
+.navigation, nav, .navbar, .list-group-item, footer {
+  background: #fadbdb;
+}
+
+.monkey-navbar {
+  background: #fadbdb;
+}
+
+.list-group-item:hover {
+  background-color: black;
+}
+
+.nav-monkey-link {
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.map-link {
+  color: #252626;
+}
+
+.map-link:hover {
+  color: #252626BE;
+}
+
+.monkey-content {
+  padding-top: 200px;
+}
+
+.location-logo {
+  width: 30px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.clock-logo {
+  width: 30px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
+
+.phone-logo {
+  width: 30px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
+
+.email-logo {
+  width: 30px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
+
+.facebook-logo, .instagram-logo, .tiktok-logo {
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.facebook-logo:hover {
+  background: cornflowerblue;
+  border-radius: 25%;
+  border: 0 none;
+}
+
+.instagram-logo:hover {
+  background: hotpink;
+  border-radius: 25%;
+  border: 0 none;
+}
+
+.tiktok-logo:hover {
+  background: lightskyblue;
+  border-radius: 25%;
+  border: 0 none;
+}
+
+.wrapper {
+  background: #252626;
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100vh - 115.3px);
+}
+
+.main-logo {
+  background: #fadbdb;
+  width: 300px;
+}
+
+#image-footer {
+  background: #fadbdb;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px none;
+}
+
+#footer-main {
+  margin: auto auto 0;
+  width: 100%;
+}
