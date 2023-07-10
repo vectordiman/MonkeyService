@@ -19,36 +19,63 @@
     flex-direction: column;
     align-items: center;
   }
-  .wall, .wheel, .battery, .steering-wheel, .logo {
+
+  .wheel, .logo {
     width: 350px;
     height: auto;
-    padding-left: 0;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
   }
+
+  .wall {
+    width: 350px;
+    height: auto;
+    margin-top: 1.5rem !important;
+  }
+
+  .battery {
+    width: 350px;
+    height: auto;
+    margin-top: 1.5rem !important;
+  }
+
+  .steering-wheel {
+    width: 350px;
+    height: auto;
+    margin-bottom: 1.5rem !important;
+  }
+
   .text-header {
     font-size: xx-large;
   }
+
   .text-overview {
+    margin: 0 !important;
     font-size: x-large;
   }
+
   .text-overview-sm {
     color: #fadbdb;
+    margin: 0 !important;
     font-size: large;
+  }
+
+  .contacts {
+    margin-right: 0 !important;
+    margin-bottom: 1.5rem;
   }
 }
 
 .wall, .battery {
   max-width: 500px;
-  padding-left: 60px;
 }
 
 .wheel {
   max-width: 500px;
-  padding-right: 60px;
 }
 
 .steering-wheel {
   max-width: 500px;
-  padding-right: 60px;
 }
 
 .accordion-item {
@@ -72,4 +99,48 @@
 
 .accordion-body {
   background-color: #252626; /* Set the desired background color */
+}
+
+.card-contact {
+  background-color: #fadbdb;
+  color: #252626;
+}
+
+.map-responsive {
+  min-height: 300px;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.rounded-start {
+  max-width: 120px;
+  padding: 10px;
+}
+
+.card-text {
+  margin: 2px;
+}
+
+.facebook-logo:hover {
+  background: cornflowerblue;
+  border-radius: 25%;
+  border: 0 none;
+}
+
+.instagram-logo:hover {
+  background: hotpink;
+  border-radius: 25%;
+  border: 0 none;
+}
+
+.tiktok-logo:hover {
+  background: lightskyblue;
+  border-radius: 25%;
+  border: 0 none;
 }
