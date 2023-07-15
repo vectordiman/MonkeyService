@@ -2,6 +2,14 @@
   background: #fadbdb;
 }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 .monkey-navbar {
   background: #fadbdb;
 }
