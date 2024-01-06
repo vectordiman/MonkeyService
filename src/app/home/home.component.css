@@ -14,6 +14,52 @@
   font-size: xxx-large;
 }
 
+.text-sub-table {
+  color: #fadbdb;
+  font-size: small;
+}
+
+.table-costs {
+  background-color: #fadbdb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-costs th {
+  background-color: #252626;
+  color: #fadbdb;
+  font-size: x-large;
+  border: 1px solid #fadbdb;
+  vertical-align: middle;
+}
+
+.table-costs td {
+  background-color: #252626;
+  color: #fadbdb;
+  border: 1px solid #fadbdb;
+  vertical-align: middle;
+}
+
+.table-costs-top-right {
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.table-costs-top-left {
+  border-top-left-radius: 5px;
+  overflow: hidden;
+}
+
+.table-costs-bottom-right {
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.table-costs-bottom-left {
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+}
+
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
@@ -63,6 +109,10 @@
   .contacts {
     margin-right: 0 !important;
     margin-bottom: 1.5rem;
+  }
+
+  .google-review {
+    min-height: 600px;
   }
 }
 
